@@ -12,38 +12,38 @@
 <body>
     <main>
         <div class="container">
+            <input type="radio" name="pic" id="pic1" checked>
+            <input type="radio" name="pic" id="pic2">
+            <input type="radio" name="pic" id="pic3">
+            <input type="radio" name="pic" id="pic4">
             <div class="slider-wrapper">
                 <div class="slider">
-                    <input type="radio" name="pic" id="pic1" checked>
-                    <input type="radio" name="pic" id="pic2">
-                    <input type="radio" name="pic" id="pic3">
-                    <input type="radio" name="pic" id="pic4">
-
-
-                    <div class="slide p1"><img src="assets/Garold.jpg" alt="pic"></div>
-                    <div class="slide"><img src="assets/Elon_Musk.jpg" alt="pic"></div>
-                    <div class="slide"><img src="assets/Pepe.jpg" alt="pic"></div>
-                    <div class="slide"><img src="assets/Ricardo.jpg" alt="pic"></div>
+                    <div id="slide1" class="slide p1"><img src="assets/Garold.jpg" alt="pic"></div>
+                    <div id="slide2" class="slide"><img src="assets/Elon_Musk.jpg" alt="pic"></div>
+                    <div id="slide3" class="slide"><img src="assets/Pepe.jpg" alt="pic"></div>
+                    <div id="slide4" class="slide"><img src="assets/Ricardo.jpg" alt="pic"></div>
                 </div>
             </div>
             <div class="wrapper">
-                <div class=text-wraper>
-                    <p class="text active-text">Гарольд скрывающий боль</p>
-                    <p class="text">КАК ТЕБЕ ТАКОЕ, ИЛОН МАСК</p>
-                    <p class="text">ЛЯГУШОНОК ПЕПЕ</p>
-                    <p class="text">РИКАРДО МИЛОС</p>
+                <div class="text-container">
+                    <div class="text-wraper">
+                        <p checked class="text t1">Гарольд скрывающий боль</p>
+                        <p class="text">КАК ТЕБЕ ТАКОЕ, ИЛОН МАСК</p>
+                        <p class="text">ЛЯГУШОНОК ПЕПЕ</p>
+                        <p class="text">РИКАРДО МИЛОС</p>
+                    </div>
                 </div>
                 <div class="pagination">
-                    <label id="pic1_label1" for="pic1" class="dots">
+                    <label id="pic_label1" for="pic1" class="dots">
                         <span id="dots-span1" class="dots-inner"></span>
                     </label>
-                    <label id="pic1_label2" for="pic2" class="dots">
+                    <label id="pic_label2" for="pic2" class="dots">
                         <span id="dots-span2" class="dots-inner"></span>
                     </label>
-                    <label id="pic1_label3" for="pic3" class="dots">
+                    <label id="pic_label3" for="pic3" class="dots">
                         <span id="dots-span3" class="dots-inner"></span>
                     </label>
-                    <label id="pic1_label4" for="pic4" class="dots">
+                    <label id="pic_label4" for="pic4" class="dots">
                         <span id="dots-span4" class="dots-inner"></span>
                     </label>
                 </div>
